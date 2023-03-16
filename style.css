@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(#2857a4, #403066 );
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .container {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+  }
+  img{
+    margin-top: 50px;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+  }
+  #sec,
+  #min {
+    font-size: 2em;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  button:hover {
+    background: white;
+    color: #023f75;
+    font-weight: 800;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 4px 4px rgba(230, 196, 196, 0.3);
+  }
+  footer{
+    margin-top: 80px;
+  }
